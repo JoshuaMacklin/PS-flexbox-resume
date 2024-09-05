@@ -1,0 +1,150 @@
+body{
+    margin: 2em 3em;
+    background-color: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_container{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 2em;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    margin: .5em 0 0 12px;
+}
+
+h2 {
+    margin: 0 0 0 12px;
+}
+
+h2, a{
+    color: rgb(50	124	165	);
+}
+
+.facts {
+    width: 100%;
+    display: block;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+span {
+    font-size: .9em;
+}
+
+span span, p {
+    color: gray;
+}
+
+.s1s1{
+    width: 60%;
+    display: flex;
+}
+
+.s1s1 img {
+    border: 4px solid rgb(66, 66, 66);
+}
+
+.s1s1 div {
+    /* display: flex; */
+}
+
+.s1s1 img {
+    display: flex;
+}
+.s1s2{
+    width: 40%;
+}
+
+.s1s3 p{
+    margin: 2em 0 2em 0;
+}
+
+hr {
+    border: none;
+    margin: 0px;
+    background-color: rgb(66, 66, 66);
+    height: 1px;
+}
+
+.flex {
+    display: flex;
+}
+
+.section2{
+    width: 60%;
+    margin: 0 18px 0 0;
+}
+
+.section2 h3{
+    background-color: rgb(55	55	55	);
+    padding: 8px;
+}
+
+.role {
+    margin: 0;
+    font-size: 14px;
+}
+
+.section2 span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3{
+    width: 40%;
+}
+
+.skillspctblock {
+    height: 16px;
+    background-color: rgb(55	55	55	);
+    margin: 8px 0;
+}
+
+.pct {
+    height: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 12px;
+    align-items: center;
+}
+
+.wppct{
+    width: 90%;
+    background-color: rgb(46	125	170	);
+}
+
+.phppct{
+    width: 80%;
+    background-color: rgb(62	167	212	);
+}
+
+.htmlpct{
+    width: 93%;
+    background-color: rgb(102	162	62	);
+}
+
+.csspct{
+    width: 80%;
+    background-color: rgb(253	191	38	);
+}
+
+.sqlpct{
+    width: 70%;
+    background-color: rgb(233	46	0	);
+}
+
+.gskills, .lskills{
+    display: flex;
+    flex-direction: column;
+}
